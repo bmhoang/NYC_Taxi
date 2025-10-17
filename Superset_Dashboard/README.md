@@ -12,6 +12,7 @@ This directory contains resources for creating an Apache Superset dashboard to v
 - **`QUICK_WINS.md`** - ⭐ Top 5 high-value charts to implement first (START HERE!)
 - **`INSIGHTS_GUIDE.md`** - 💡 Complete guide: what each chart tells you and how to act on it
 - **`INSIGHTS_SUMMARY.md`** - 📋 One-page quick reference of all chart insights
+- **`DATA_INGESTION_GUIDE.md`** - 📥 How to get data and create tables in Trino
 - **`README.md`** - This file
 
 ## 🚀 Quick Start
