@@ -1,9 +1,11 @@
-## NYC Taxi Data Visualization Using Qlik Sense & Tableau
+## NYC Taxi Data Visualization Using Qlik Sense, Tableau & Apache Superset
 - Author: Sekyung Na
 - Link to my tableau Workbook: https://public.tableau.com/profile/sekyung.na6348#!/vizhome/NYCTaxi20183/Summary
 - LinkedIn: https://www.linkedin.com/in/sekyung-na-95500a5a/
 
 I would love to hear any opinion about my analysis! Please message me via LinkedIn if you have any questions :)!
+
+**NEW:** Apache Superset dashboard implementation now available! See `Superset_Dashboard/` folder for setup guide and configurations.
 
 
 
@@ -87,6 +89,34 @@ URL: https://geo.nyu.edu/catalog/nyu-2451-36743
 - Summary
 ![Summary](Tableau_Dashboard/Tableau_Summary.PNG)
 Link: https://public.tableau.com/profile/sekyung.na6348#!/vizhome/NYCTaxi20183/Summary
+
+
+
+### Apache Superset Dashboard (NEW)
+A comprehensive Apache Superset dashboard implementation is now available for visualizing NYC Taxi data stored in Trino. This provides an open-source, scalable alternative to Qlik Sense and Tableau.
+
+**Features:**
+- Direct integration with Trino for real-time data analysis
+- 20+ pre-configured SQL queries for common analytics
+- Interactive dashboards with cross-filtering
+- Geographic heat maps and visualizations
+- Automated setup scripts using Superset API
+- No licensing costs
+
+**Quick Start:**
+1. Navigate to `Superset_Dashboard/` folder
+2. Follow the setup guide in `Superset_Setup_Guide.md`
+3. Use the provided SQL queries in `trino_queries.sql`
+4. Or run the automated setup with `superset_config_helper.py`
+
+**Included Resources:**
+- Complete setup documentation
+- 10 categories of optimized Trino queries
+- Chart configuration templates
+- Python automation scripts
+- Troubleshooting guides
+
+See `Superset_Dashboard/README.md` for detailed instructions.
 
 
 
